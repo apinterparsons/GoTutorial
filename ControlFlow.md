@@ -2,7 +2,8 @@
 
 ### If/Else Statements
 In Go, you are able to use an if/else statement or an if/else if/else statement. There are no conditional statements other than "if" in Go. If you are using multiple conditional statements (ex. an if and an else), the else statement must be on the same line as the previous curly bracket. In addition, no parentheses are required around the expression(s) in an if statement.   
-	
+
+```
  if 3%2 == 0 {
   
 	fmt.Println("3 is even")
@@ -12,6 +13,7 @@ In Go, you are able to use an if/else statement or an if/else if/else statement.
 	fmt.Println("3 is odd")
     
 }
+```
   
 The if statements can have one or more conditions. With multi-condition if statements, use the following operators to combine expressions:
 
