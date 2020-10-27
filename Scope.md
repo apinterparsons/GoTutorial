@@ -1,4 +1,5 @@
 # Naming, Scope, & Binding
+to find the program that goes with this, look at bindings.go
 
 ### Same Name Within Main
 If you declare a variable in the main function and then another of the same name within a for loop, you will end up having two variables of the same name. Go will allow you to perform such an action without conflict, but it could very easily get confusing for a programmer to determine what is going on. The value of x within the for loop is only true as long as you are still within the loop. As soon as you exit out, the value of x goes back to what it had been declared as in main.
